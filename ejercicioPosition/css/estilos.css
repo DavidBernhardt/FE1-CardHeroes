@@ -1,0 +1,50 @@
+*{
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+ 
+li{
+    background-color: pink;
+    display: inline-block;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+ }
+
+header{
+    background-color: beige;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    width: 100%;
+    z-index: 999;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000;
+    position: relative;
+}
+.box-1{
+    position: relative;
+    background-color: pink;
+}
+.box-2{
+    background-color: rgb(122,67,76);
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.box-3{
+    background-color: rgb(120, 40, 175);
+}
+
+

@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: #00669F;
+    z-index: 1;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    background-color: #00669F;
+}
+
+.descuentos{
+    background-color: #1CD1B0;
+}
+
+.card{
+    /* display: inline-block;*/
+    position: relative;
+    background-color: #f3f3f3;
+    width: 320px;
+    height: 500px;
+    margin: auto;
+    margin-bottom: 32px;
+    border-radius: 25px 25px 0 0;
+    box-shadow: 0 2px darkgrey;
+
+}
+
+.img-fondo{
+    
+    background-size: cover;
+    height: 200px;
+    width: 320px;
+    border-radius: 25px 25px 0 0;
+}
+
+.fa-heart{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    font-size: 26px;
+    width: 500px;
+    height: 10px;
+    color: #CC2424;
+}
+
+.info{
+    position: absolute;
+    top: 136px;
+    height: 340px;
+}
+
+.foto-perfil{
+    display: block;
+    margin: 0 96px 0 96px;
+    width: 128px;
+    height: 128px;
+    border-radius: 50%; 
+}
+
+.img-batman{
+    background-image: url(../img/bg-batman.jpg);
+}
+
+.img-mujer-maravilla{
+    background-image: url(../img/bg-wonderw.jpg);
+}
+
+.img-superman{
+    background-image: url(../img/bg-superman.jpg);
+}
+
+.card h2{
+    text-align: center;
+    margin-top: 10px
+}
+
+.card p{
+    top: 200px;
+    padding: 20px;
+    text-align: left;
+    margin: auto;
+}
+
+.boton{
+    position: absolute;
+    left: 96px;
+    bottom: 0px;
+    color: white;
+    background-color: #00669F;
+    text-decoration: none;
+    padding: 10px 32px;
+    border-radius: 3px;
+    margin: 0;
+}
